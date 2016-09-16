@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForecastFragment">
+
+    <RelativeLayout
+        android:id="@+id/night"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/fragment_nightday_padding"
+        >
+
+
+        <TextView
+            android:id="@+id/night_text"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/night"
+            />
+
+        <TextView
+            android:id="@+id/temp_night"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/night_text"
+            android:textSize="@dimen/fragment_tempsize"
+            android:layout_marginTop="@dimen/fragment_temp_margintop"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/temptext_night"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temp_night"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/fragment_temptext_marginbottom"
+            />
+
+        <TextView
+            android:id="@+id/wind_night"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temptext_night"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/fragment_windsize"
+            android:layout_marginBottom="@dimen/fragment_wind_marginbottom"
+            />
+
+        <TextView
+            android:id="@+id/text_night"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@id/wind_night"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/fragment_nightday_padding"
+        >
+
+
+        <TextView
+            android:id="@+id/day_text"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/day"
+            />
+
+        <TextView
+            android:id="@+id/temp_day"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/day_text"
+            android:textSize="@dimen/fragment_tempsize"
+            android:layout_marginTop="@dimen/fragment_temp_margintop"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/temptext_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temp_day"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/fragment_temptext_marginbottom"
+            />
+
+        <TextView
+            android:id="@+id/wind_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temptext_day"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/fragment_windsize"
+            android:layout_marginBottom="@dimen/fragment_wind_marginbottom"
+            />
+
+        <TextView
+            android:id="@+id/text_day"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@id/wind_day"
+            android:layout_marginBottom="@dimen/fragment_textday_marginbottom"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

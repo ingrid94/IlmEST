@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">IlmEST</string>
+    <string name="connection_error">Internetiühendus puudub</string>
+    <string name="xml_error">Ilmateenistuse viga</string>
+    <string name="night">ÖÖSEL</string>
+    <string name="day">PÄEVAL</string>
+    <string name="forecast_night">forecast_night</string>
+    <string name="temp">%1$s°C ... %2$s°C</string>
+    <string name="wind">Tuul: %1$sm/s ... %2$sm/s</string>
+    <string name="from_to">%1$s kuni %2$s</string>
+    <string name="negative">"miinus "</string>
+    <string name="positive">"pluss "</string>
+    <string name="teist">teist</string>
+    <string name="tens">kümmend</string>
+    <string name="zero">null</string>
+    <string name="one">üks</string>
+    <string name="two">kaks</string>
+    <string name="three">kolm</string>
+    <string name="four">neli</string>
+    <string name="five">viis</string>
+    <string name="six">kuus</string>
+    <string name="seven">seitse</string>
+    <string name="eight">kaheksa</string>
+    <string name="nine">üheksa</string>
+    <string name="URL">http://www.ilmateenistus.ee/ilma_andmed/xml/forecast.php</string>
+    <string name="GET">GET</string>
+</resources>
